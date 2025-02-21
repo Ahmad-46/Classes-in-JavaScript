@@ -19,6 +19,7 @@ document.getElementById("studen1").innerHTML = `My name is ${student1.name}. i w
 
 student2 = new student("abdul",2010);
 document.getElementById("student2").innerHTML = `My name is ${ student2.name}. i was born in ${student2.b_y} and I am ${student2.age()} year old`;
+
 class Car {
   constructor(brand) {
     this.carname = brand;
